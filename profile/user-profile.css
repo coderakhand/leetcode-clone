@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #bdbec2;
+}
+body {
+  background-color: #1a1a1a;
+}
+nav {
+  padding: 10px 10px 10px 30px;
+  height: 49px;
+  background-color: #282828;
+  display: flex;
+  border-bottom-style: ridge;
+  border-bottom-color:#242323;
+}
+
+#nav-left {
+  width: 80%;
+  position: absolute;
+  left: 145px;
+}
+
+#nav-right {
+  width: 20%;
+  position: absolute;
+  right: 0;
+}
+
+.nav-right-item {
+  margin: 2px;
+}
+
+#daily-problem {
+  color: #fb8727;
+}
+
+#premium-btn {
+  color: #ffa015;
+  background-color: #53402a;
+  border-radius: 8px;
+  width: 85px;
+  height: 32px;
+  border: none;
+}
+
+#leetcode {
+  height: 22px;
+}
+.nav-left-item {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 16px 0 16px;
+}
+
+.nav-left-item:hover {
+  color: #ffffff;
+}
+
+#store {
+  color: #ffa015;
+}
+
+.main-box {
+  margin: 2% 10% 0 10%;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+#info1 {
+  background-color: #282828;
+  width: 300px;
+  height: 1000px;
+  border-radius: 10px;
+}
+
+#edit-profile {
+  height: 35px;
+  width: 266px;
+  background-color: #2b392f;
+  color: #2dba5d;
+  border-radius: 10px;
+  border: none;
+  margin: 16px;
+}
+
+#info2 {
+  width: 835px;
+}
+
+.stats {
+  margin: 0 0 16px 0;
+  border-radius: 10px;
+  background-color: #282828;
+}
+
+#contest {
+  background-color: #1a1a1a;
+  height: 200px;
+  width: 835px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.contest-rating {
+  background-color: #282828;
+  width: 417.5px;
+  height: 180px;
+}
+
+#rating {
+  border-radius: 10px 0 0 10px;
+}
+
+#bar-graph {
+  border-radius: 0 10px 10px 0;
+  border-left: #ffffff;
+  border-left-style: ridge;
+  border-left-color: #282828;
+}
+
+#problems {
+  background-color: #1a1a1a;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.problems-sub-box {
+  background-color: #282828;
+  width: 410px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+#heat-map {
+  height: 180px;
+}
+
+#submission {
+  height: 800px;
+}
